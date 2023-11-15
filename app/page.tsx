@@ -8,7 +8,7 @@ export default function Page() {
     <main className="flex min-h-screen flex-col p-6">
       <div className="h-0 w-0 border-b-[30px] border-l-[20px] border-r-[20px] border-b-black border-l-transparent border-r-transparent" />
       <div className={styles.shape}></div>
-      <Image src="/截屏2023-06-21 16.43.19.png" width={500} height={500} />
+      <Image src="/截屏2023-06-21 16.43.19.png" width={500} height={500} alt={""} />
       <Image
         src="/hero-desktop.png"
         width={1000}
